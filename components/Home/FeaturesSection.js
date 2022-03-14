@@ -8,9 +8,9 @@ export const FeaturesSection = () => {
     <>
     <h1 className={styles.title}>Features</h1>
       <div className={styles.parentContainer}>
-        <div className={styles.descriptionContainer}>
-          <h1 className={styles.heading}>Windows Fluent User Interface</h1>
-          <p className={styles.paragraph}>
+        <div>
+          <h1 className='subHeading'>Windows Fluent User Interface</h1>
+          <p className='paragraph'>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -31,8 +31,8 @@ export const FeaturesSection = () => {
           <Image src={FluentImage} className={styles.appScreenShot} />
         </div>
         <div className={styles.descriptionContainer}>
-          <h1 className={styles.heading}>Windows Fluent User Interface</h1>
-          <p className={styles.paragraph}>
+          <h1 className='subHeading'>Windows Fluent User Interface</h1>
+          <p className='paragraph'>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -47,8 +47,8 @@ export const FeaturesSection = () => {
       </div>
       <div className={styles.parentContainer}>
         <div className={styles.descriptionContainer}>
-          <h1 className={styles.heading}>Windows Fluent User Interface</h1>
-          <p className={styles.paragraph}>
+          <h1 className='subHeading'>Windows Fluent User Interface</h1>
+          <p className='paragraph'>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

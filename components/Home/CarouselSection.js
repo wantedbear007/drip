@@ -13,7 +13,6 @@ import C6 from "../../assets/images/carousel6.png";
 const CarouselSection = () => {
   {
     return (
-      
       <div className={styles.parentContainer}>
         <h1 className={styles.title}>ShowCase</h1>
         <Carousel
@@ -23,6 +22,7 @@ const CarouselSection = () => {
           interval={2000}
           infiniteLoop="True"
           swipeable="True"
+          showThumbs="False"
         >
           <div>
             <Image src={C1} />

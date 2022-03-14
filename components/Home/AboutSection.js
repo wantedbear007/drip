@@ -8,8 +8,8 @@ export const AboutSection = () => {
     
     <div className={styles.aboutSection}>
       <div className={styles.aboutSection__text}>
-      <h1 className={styles.heading}>About</h1>
-      <p className={styles.paragraph}>
+      <h1 className='heading'>About</h1>
+      <p className='paragraph'>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -21,7 +21,7 @@ export const AboutSection = () => {
         of Lorem Ipsum.
       </p>
       </div>
-      <h1 className={styles.heading2}>App Preview</h1>
+      <h1 className='heading2'>App Preview</h1>
     <Image src={AppScreenShot} className={styles.appScreenShot} />
     </div>
     

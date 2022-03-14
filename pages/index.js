@@ -7,8 +7,13 @@ import Carousel from "../components/Home/CarouselSection";
 import FooterSection from "../components/Home/FooterSection";
 
 export default function Home() {
+  // Credits click handler
+  const developerLink = "https://wantedbear007.github.io/home/";
+  const DeveloperPortFolio = () => {
+    window.open(developerLink);
+  };
   return (
-    <div className={styles.l}>
+    <>
       <head>
         <title>Drip - YT Music Client</title>
         <meta name="keywords" content="Youtube Music Player Desktop" />
@@ -29,13 +34,28 @@ export default function Home() {
       <FeaturesSection />
       <Carousel />
       <FooterSection />
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e63946"
-          fill-opacity="1"
-          d="M0,128L60,133.3C120,139,240,149,360,149.3C480,149,600,139,720,149.3C840,160,960,192,1080,176C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-        ></path>
-      </svg>
-    </div>
+      <div className={styles.footerContainer}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className={styles.footerImage}
+        >
+          <path
+            fill="#e63946"
+            fill-opacity="1"
+            d="M0,128L60,133.3C120,139,240,149,360,149.3C480,149,600,139,720,149.3C840,160,960,192,1080,176C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          ></path>
+        </svg>
+        <p className={styles.credits}>
+          Made with ❤️ by{" "}
+          <span className={styles.developer} onClick={DeveloperPortFolio}>
+            Bhanupratap
+          </span>
+        </p>
+      </div>
+    </>
   );
 }
+
+// Wantedbear007
+// Bhanupratap Singh
