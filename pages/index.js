@@ -3,6 +3,8 @@ import styles from "../styles/Index.module.css";
 import PrimaryContainer from "../components/Home/PrimaryContainer";
 import AboutSection from "../components/Home/AboutSection";
 import FeaturesSection from "../components/Home/FeaturesSection";
+import Carousel from "../components/Home/CarouselSection";
+import FooterSection from "../components/Home/FooterSection";
 
 export default function Home() {
   return (
@@ -25,7 +27,15 @@ export default function Home() {
       <PrimaryContainer />
       <AboutSection />
       <FeaturesSection />
-      
+      <Carousel />
+      <FooterSection />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e63946"
+          fill-opacity="1"
+          d="M0,128L60,133.3C120,139,240,149,360,149.3C480,149,600,139,720,149.3C840,160,960,192,1080,176C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.parentContainer {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.heading {
+  font-size: 32px;
+  letter-spacing: 2.4px;
+}
+.githubIcon {
+  background-color: black;
+  border-radius: 40px;
+  font-size: 20px;
+  color: white;
+  border-style: none;
+  padding: 15px 80px;
+}
+
+.githubIcon:hover {
+  background-color: #e63946;
+  transition: all 0.4s ease-in-out;
+}
+
+.githubIcon:active {
+  transform: scale(0.95);
+}
+.buttonText {
+}
