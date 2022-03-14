@@ -1,0 +1,42 @@
+.parentContainer, .parentContainerLeft {
+    margin: 80px 0px 80px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #312f2f;
+  border-radius: 20px 0 0 20px;
+  padding: 30px 50px;
+}
+.parentContainerLeft {
+    margin: 0px 80px 0px 0px;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.descriptionContainer {
+    
+}
+.heading {
+    font-size: 26px;
+  letter-spacing: 2.4px;
+}
+.paragraph {
+    font-size: 20px;
+  line-height: 40px;
+}
+.imageContainer, .imageContainerLeft {
+    height: auto;
+    width: 70%;
+}
+.appScreenShot {
+    border-radius: 10px;
+    /* width: 500px; */
+}
+.imageContainerLeft {
+    margin-right: 40px;
+}
+.title {
+    font-size: 32px;
+    letter-spacing: 2.4px;
+    margin-left: 120px;
+}

@@ -1,0 +1,25 @@
+.aboutSection {
+  margin: 80px 100px;
+}
+.aboutSection__text {
+  background-color: #312f2f;
+  border-radius: 20px;
+  padding: 30px 50px;
+  margin-bottom: 100px;
+}
+
+.heading,
+.heading2 {
+  font-size: 32px;
+  letter-spacing: 2.4px;
+}
+.heading2 {
+  margin-left: 40px;
+}
+.paragraph {
+  font-size: 20px;
+  line-height: 40px;
+}
+.appScreenShot {
+  border-radius: 20px;
+}
