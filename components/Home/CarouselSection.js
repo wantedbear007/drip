@@ -14,15 +14,17 @@ const CarouselSection = () => {
   {
     return (
       <div className={styles.parentContainer}>
-        <h1 className={styles.title}>ShowCase</h1>
+        <h1 className="title">ShowCase</h1>
         <Carousel
           autoPlay="True"
-          autoFocus="True"
-          emulateTouch="True"
+          autoFocus="False"
+          emulateTouch={false}
           interval={2000}
           infiniteLoop="True"
           swipeable="True"
-          showThumbs="False"
+          showStatus="False"
+          showThumbs={false}
+          stopOnHover={true}
         >
           <div>
             <Image src={C1} />

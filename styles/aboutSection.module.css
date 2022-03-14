@@ -8,18 +8,30 @@
   margin-bottom: 100px;
 }
 
-/* .heading,
-.heading2 {
-  font-size: 32px;
-  letter-spacing: 2.4px;
-}
-.heading2 {
-  margin-left: 40px;
-}
-.paragraph {
-  font-size: 20px;
-  line-height: 40px;
-} */
 .appScreenShot {
   border-radius: 20px;
+}
+
+/* IPAD OPTIMIZATION */
+
+@media screen and (max-width: 1220px) {
+  .aboutSection {
+    margin: 70px 90px;
+  }
+  .aboutSection__text {
+    padding: 25px 40px;
+    margin-bottom: 90px;
+  }
+}
+
+/* MOBILE OPTIMIZATIONS */
+@media screen and (max-width: 870px) {
+  .aboutSection {
+    margin: 30px 10px;
+  }
+  .aboutSection__text {
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+  }
 }
