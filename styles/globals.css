@@ -14,15 +14,17 @@ a {
   text-decoration: none;
 }
 
-
-
 .heading,
-.heading2 {
+.heading2,
+.heading3 {
   font-size: 32px;
   letter-spacing: 2.4px;
 }
 .heading2 {
   margin-left: 40px;
+}
+.heading3 {
+  margin-right: 40px;
 }
 .paragraph {
   font-size: 20px;
@@ -38,7 +40,8 @@ a {
 
 @media screen and (max-width: 1220px) {
   .heading,
-  .heading2 {
+  .heading2,
+  .heading3 {
     font-size: 28px;
     letter-spacing: 2.2px;
   }
@@ -59,7 +62,8 @@ a {
 /* MOBILE OPTIMIZATIONS */
 @media screen and (max-width: 870px) {
   .heading,
-  .heading2 {
+  .heading2,
+  .heading3 {
     font-size: 25px;
     letter-spacing: 1.4px;
   }

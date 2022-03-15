@@ -15,9 +15,11 @@ export const FooterSection = () => {
         target="_blank"
         onClick={GithubLinkHandler}
       >
+        {/* <img src="/github.png" alt="Github" /> */}
         Github
       </button>
-    </div>
+      </div>
+     
   );
 };
 

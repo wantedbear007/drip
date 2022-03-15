@@ -6,6 +6,9 @@ import FeaturesSection from "../components/Home/FeaturesSection";
 import Carousel from "../components/Home/CarouselSection";
 import FooterSection from "../components/Home/FooterSection";
 
+
+//! ADD ANIMATIONS 
+
 export default function Home() {
   // Credits click handler
   const developerLink = "https://wantedbear007.github.io/home/";
@@ -46,6 +49,7 @@ export default function Home() {
             d="M0,128L60,133.3C120,139,240,149,360,149.3C480,149,600,139,720,149.3C840,160,960,192,1080,176C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
         </svg>
+        
         <p className={styles.credits}>
           Made with ❤️ by{" "}
           <span className={styles.developer} onClick={DeveloperPortFolio}>

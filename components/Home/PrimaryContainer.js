@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../../styles/primaryContainer.module.css";
 import Image from "next/image";
 import appLogo from "../../assets/images/logo.png";
+// Animations
+import { JackInTheBox, Slide } from "react-awesome-reveal";
 
 export const PrimaryContainer = () => {
   // Download Address Handler
@@ -12,23 +14,26 @@ export const PrimaryContainer = () => {
   };
   return (
     <div className={styles.primaryContainer}>
-      <div className={styles.logoContainer}>
-        <Image
-          src={appLogo}
-          width="250w"
-          height="250w"
-          alt="App logo"
-          className={styles.logo}
-          // layout="responsive"
-        />
-        <h1 className={styles.appTitle}>DRIP</h1>
-      </div>
+      <JackInTheBox direction="bottom">
+        <div className={styles.logoContainer}>
+          <Image
+            src={appLogo}
+            width="250w"
+            height="250w"
+            alt="App logo"
+            className={styles.logo}
+            // layout="responsive"
+          />
+          <h1 className={styles.appTitle}>DRIP</h1>
+        </div>
+      </JackInTheBox>
+      <Slide direction="right">
       <div className={styles.sloganContainer}>
         <h1 className={styles.slogan}>Free YouTube Music Client</h1>
         <button className={styles.downloadButton} onClick={DownloadLinkHandler}>
           Download For Windows
         </button>
-      </div>
+      </div></Slide>
     </div>
   );
 };
