@@ -28,12 +28,16 @@ export const PrimaryContainer = () => {
         </div>
       </JackInTheBox>
       <Slide direction="right">
-      <div className={styles.sloganContainer}>
-        <h1 className={styles.slogan}>Free YouTube Music Client</h1>
-        <button className={styles.downloadButton} onClick={DownloadLinkHandler}>
-          Download For Windows
-        </button>
-      </div></Slide>
+        <div className={styles.sloganContainer}>
+          <h1 className={styles.slogan}>Free YouTube Music Client</h1>
+          <button
+            className={styles.downloadButton}
+            onClick={DownloadLinkHandler}
+          >
+            Download For Windows
+          </button>
+        </div>
+      </Slide>
     </div>
   );
 };

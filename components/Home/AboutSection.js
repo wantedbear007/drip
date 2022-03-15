@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 export const AboutSection = () => {
   return (
     <div className={styles.aboutSection}>
-      <Fade>
+      <Fade duration={3000}>
         <div className={styles.aboutSection__text}>
           <h1 className="heading">About</h1>
           <p className="paragraph">
@@ -23,7 +23,7 @@ export const AboutSection = () => {
           </p>
         </div>
       </Fade>
-      <Fade>
+      <Fade duration={3000}>
         <h1 className="heading2">App Preview</h1>
         <Image src={AppScreenShot} className={styles.appScreenShot} />
       </Fade>

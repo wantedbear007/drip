@@ -2,15 +2,15 @@ import React from "react";
 import styles from "../../styles/Features.module.css";
 import Image from "next/dist/client/image";
 import FluentImage from "../../assets/images/fluentUI.png";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export const FeaturesSection = () => {
   return (
     <>
-      <Fade>
-        <h1 className='heading2'>Features</h1>
+      <Fade duration={3000}>
+        <h1 className="heading2">Features</h1>
       </Fade>
-      <Slide direction="right">
+      <Fade duration={3000}>
         <div className={styles.parentContainer}>
           <div>
             <h1 className="subHeading">Windows Fluent User Interface</h1>
@@ -31,8 +31,8 @@ export const FeaturesSection = () => {
             <Image src={FluentImage} className={styles.appScreenShot} />
           </div>
         </div>
-      </Slide>
-      <Slide direction="left">
+      </Fade>
+      <Fade  duration={3000}>
         <div className={styles.parentContainerLeft}>
           <div className={styles.imageContainerLeft}>
             <Image src={FluentImage} className={styles.appScreenShot} />
@@ -53,8 +53,8 @@ export const FeaturesSection = () => {
             </p>
           </div>
         </div>
-      </Slide>
-      <Slide direction="right">
+      </Fade>
+      <Fade duration={3000}>
         <div className={styles.parentContainer}>
           <div className={styles.descriptionContainer}>
             <h1 className="subHeading">Windows Fluent User Interface</h1>
@@ -75,7 +75,7 @@ export const FeaturesSection = () => {
             <Image src={FluentImage} className={styles.appScreenShot} />
           </div>
         </div>
-      </Slide>
+      </Fade>
     </>
   );
 };
