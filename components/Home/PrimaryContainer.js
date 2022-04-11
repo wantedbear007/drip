@@ -3,7 +3,7 @@ import styles from "../../styles/primaryContainer.module.css";
 import Image from "next/image";
 import appLogo from "../../public/logo.png";
 // Animations
-import { JackInTheBox, Slide } from "react-awesome-reveal";
+import { JackInTheBox, Fade } from "react-awesome-reveal";
 
 export const PrimaryContainer = () => {
   // Download Address Handler
@@ -26,7 +26,7 @@ export const PrimaryContainer = () => {
           <h1 className={styles.appTitle}>DRIP</h1>
         </div>
       </JackInTheBox>
-      <Slide direction="right">
+      <Fade duration={3000}>
         <div className={styles.sloganContainer}>
           <h1 className={styles.slogan}>Free YouTube Music Client</h1>
           <button
@@ -36,7 +36,7 @@ export const PrimaryContainer = () => {
             Download For Windows
           </button>
         </div>
-      </Slide>
+      </Fade>
     </div>
   );
 };

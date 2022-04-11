@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/AboutSection.module.css";
+import styles from "../../styles/aboutSection.module.css";
 import Image from "next/dist/client/image";
 import AppPreview from "../../public/preview.png";
 import { Fade } from "react-awesome-reveal";

@@ -31,27 +31,27 @@ const CarouselSection = () => {
           >
             <div>
               <Image src={C1} alt="Image" />
-              <p className="legend">Moods & Genres</p>
+              {/* <p className="legend">Moods & Genres</p> */}
             </div>
             <div>
               <Image src={C2} alt="Image" />
-              <p className="legend">Image 2</p>
+              {/* <p className="legend">Image 2</p> */}
             </div>
             <div>
               <Image src={C3} alt="Image" />
-              <p className="legend">Image 3</p>
+              {/* <p className="legend">Image 3</p> */}
             </div>
             <div>
               <Image src={C4} alt="Image" />
-              <p className="legend">Image 4</p>
+              {/* <p className="legend">Image 4</p> */}
             </div>
             <div>
               <Image src={C5} alt="Image" />
-              <p className="legend">Image 5</p>
+              {/* <p className="legend">Image 5</p> */}
             </div>
             <div>
               <Image src={C6} alt="Image" />
-              <p className="legend">Image 5</p>
+              {/* <p className="legend">Image 5</p> */}
             </div>
           </Carousel>
         </div>
