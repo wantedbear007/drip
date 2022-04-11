@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/aboutSection.module.css";
 import Image from "next/dist/client/image";
-import AppScreenShot from "../../assets/images/appPreview.png";
+import AppScreenShot from '../../public/appPreview.png'
 import { Fade } from "react-awesome-reveal";
 
 export const AboutSection = () => {

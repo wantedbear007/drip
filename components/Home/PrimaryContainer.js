@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/primaryContainer.module.css";
 import Image from "next/image";
-import appLogo from "../../assets/images/logo.png";
+import appLogo from '../../public/logo.png';
 // Animations
 import { JackInTheBox, Slide } from "react-awesome-reveal";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/Features.module.css";
 import Image from "next/dist/client/image";
-import FluentImage from "../../assets/images/fluentUI.png";
+import FluentImage from "../../public/fluentUI.png";
 import { Fade } from "react-awesome-reveal";
 
 export const FeaturesSection = () => {
@@ -32,7 +32,7 @@ export const FeaturesSection = () => {
           </div>
         </div>
       </Fade>
-      <Fade  duration={3000}>
+      <Fade duration={3000}>
         <div className={styles.parentContainerLeft}>
           <div className={styles.imageContainerLeft}>
             <Image src={FluentImage} className={styles.appScreenShot} />

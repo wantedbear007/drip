@@ -5,12 +5,12 @@ import Image from "next/dist/client/image";
 import styles from "../../styles/Carousel.module.css";
 import { Fade } from "react-awesome-reveal";
 // IMAGES
-import C1 from "../../assets/images/carousel1.png";
-import C2 from "../../assets/images/carousel2.png";
-import C3 from "../../assets/images/carousel3.png";
-import C4 from "../../assets/images/carousel4.png";
-import C5 from "../../assets/images/carousel5.png";
-import C6 from "../../assets/images/carousel6.png";
+import C1 from "../../public/carousel1.png";
+import C2 from "../../public/carousel2.png";
+import C3 from "../../public/carousel3.png";
+import C4 from "../../public/carousel4.png";
+import C5 from "../../public/carousel5.png";
+import C6 from "../../public/carousel6.png";
 
 const CarouselSection = () => {
   {
