@@ -28,14 +28,22 @@ export const FeaturesSection = () => {
             </p>
           </div>
           <div className={styles.imageContainer}>
-            <Image src={FluentImage} className={styles.appScreenShot} />
+            <Image
+              src={FluentImage}
+              alt="Image"
+              className={styles.appScreenShot}
+            />
           </div>
         </div>
       </Fade>
       <Fade duration={3000}>
         <div className={styles.parentContainerLeft}>
           <div className={styles.imageContainerLeft}>
-            <Image src={FluentImage} className={styles.appScreenShot} />
+            <Image
+              src={FluentImage}
+              alt="Image"
+              className={styles.appScreenShot}
+            />
           </div>
           <div className={styles.descriptionContainer}>
             <h1 className="subHeading">Windows Fluent User Interface</h1>
@@ -72,7 +80,11 @@ export const FeaturesSection = () => {
             </p>
           </div>
           <div className={styles.imageContainer}>
-            <Image src={FluentImage} className={styles.appScreenShot} />
+            <Image
+              src={FluentImage}
+              alt="Image"
+              className={styles.appScreenShot}
+            />
           </div>
         </div>
       </Fade>

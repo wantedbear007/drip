@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/primaryContainer.module.css";
 import Image from "next/image";
-import appLogo from '../../public/logo.png';
+import appLogo from "../../public/logo.png";
 // Animations
 import { JackInTheBox, Slide } from "react-awesome-reveal";
 
@@ -22,7 +22,6 @@ export const PrimaryContainer = () => {
             height="250w"
             alt="App logo"
             className={styles.logo}
-            // layout="responsive"
           />
           <h1 className={styles.appTitle}>DRIP</h1>
         </div>

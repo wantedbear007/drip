@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../../styles/aboutSection.module.css";
+import styles from "../../styles/AboutSection.module.css";
 import Image from "next/dist/client/image";
-import AppScreenShot from '../../public/appPreview.png'
+import AppPreview from "../../public/preview.png";
 import { Fade } from "react-awesome-reveal";
 
 export const AboutSection = () => {
@@ -24,8 +24,10 @@ export const AboutSection = () => {
         </div>
       </Fade>
       <Fade duration={3000}>
-        <h1 className="heading2">App Preview</h1>
-        <Image src={AppScreenShot} className={styles.appScreenShot} />
+        <div>
+          <h1 className="heading2">App Preview</h1>
+          <Image src={AppPreview} alt="App Screenshot" />
+        </div>
       </Fade>
     </div>
   );
