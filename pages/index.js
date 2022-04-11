@@ -5,6 +5,7 @@ import AboutSection from "../components/Home/AboutSection";
 import FeaturesSection from "../components/Home/FeaturesSection";
 import Carousel from "../components/Home/CarouselSection";
 import FooterSection from "../components/Home/FooterSection";
+import Head from "next/head";
 
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
   };
   return (
     <>
-      <head>
+      <Head>
         <title>Drip - YT Music Client</title>
         <meta name="keywords" content="Youtube Music Player Desktop" />
-      </head>
+      </Head>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

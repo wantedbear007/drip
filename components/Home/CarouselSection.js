@@ -30,27 +30,27 @@ const CarouselSection = () => {
             stopOnHover={true}
           >
             <div>
-              <Image src={C1} />
+              <Image src={C1} alt="Image" />
               <p className="legend">Moods & Genres</p>
             </div>
             <div>
-              <Image src={C2} />
+              <Image src={C2} alt="Image" />
               <p className="legend">Image 2</p>
             </div>
             <div>
-              <Image src={C3} />
+              <Image src={C3} alt="Image" />
               <p className="legend">Image 3</p>
             </div>
             <div>
-              <Image src={C4} />
+              <Image src={C4} alt="Image" />
               <p className="legend">Image 4</p>
             </div>
             <div>
-              <Image src={C5} />
+              <Image src={C5} alt="Image" />
               <p className="legend">Image 5</p>
             </div>
             <div>
-              <Image src={C6} />
+              <Image src={C6} alt="Image" />
               <p className="legend">Image 5</p>
             </div>
           </Carousel>
